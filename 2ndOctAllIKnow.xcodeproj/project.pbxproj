@@ -12,6 +12,9 @@
 		DBFDAAB01F81B5EB005C8B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDAAAE1F81B5EB005C8B6D /* Main.storyboard */; };
 		DBFDAAB21F81B5EB005C8B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFDAAB11F81B5EB005C8B6D /* Assets.xcassets */; };
 		DBFDAAB51F81B5EB005C8B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFDAAB31F81B5EB005C8B6D /* LaunchScreen.storyboard */; };
+		DBFDAABD1F81B636005C8B6D /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDAABC1F81B636005C8B6D /* myTableViewController.swift */; };
+		DBFDAABF1F81C6D1005C8B6D /* editViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDAABE1F81C6D1005C8B6D /* editViewController.swift */; };
+		DBFDAAC51F81D9B8005C8B6D /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDAAC41F81D9B8005C8B6D /* GestureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DBFDAAB11F81B5EB005C8B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBFDAAB41F81B5EB005C8B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBFDAAB61F81B5EB005C8B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFDAABC1F81B636005C8B6D /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		DBFDAABE1F81C6D1005C8B6D /* editViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editViewController.swift; sourceTree = "<group>"; };
+		DBFDAAC41F81D9B8005C8B6D /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				DBFDAAAA1F81B5EB005C8B6D /* AppDelegate.swift */,
 				DBFDAAAC1F81B5EB005C8B6D /* ViewController.swift */,
 				DBFDAAAE1F81B5EB005C8B6D /* Main.storyboard */,
+				DBFDAAC41F81D9B8005C8B6D /* GestureViewController.swift */,
+				DBFDAABE1F81C6D1005C8B6D /* editViewController.swift */,
+				DBFDAABC1F81B636005C8B6D /* myTableViewController.swift */,
 				DBFDAAB11F81B5EB005C8B6D /* Assets.xcassets */,
 				DBFDAAB31F81B5EB005C8B6D /* LaunchScreen.storyboard */,
 				DBFDAAB61F81B5EB005C8B6D /* Info.plist */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFDAABF1F81C6D1005C8B6D /* editViewController.swift in Sources */,
 				DBFDAAAD1F81B5EB005C8B6D /* ViewController.swift in Sources */,
+				DBFDAABD1F81B636005C8B6D /* myTableViewController.swift in Sources */,
+				DBFDAAC51F81D9B8005C8B6D /* GestureViewController.swift in Sources */,
 				DBFDAAAB1F81B5EB005C8B6D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,12 +286,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69BGRT6C4E;
+				DEVELOPMENT_TEAM = RKMSTG9937;
 				INFOPLIST_FILE = 2ndOctAllIKnow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dilipGurjar.-ndOctAllIKnow";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dilipGurjar.ndOctAllIKnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +303,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 69BGRT6C4E;
+				DEVELOPMENT_TEAM = RKMSTG9937;
 				INFOPLIST_FILE = 2ndOctAllIKnow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dilipGurjar.-ndOctAllIKnow";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dilipGurjar.ndOctAllIKnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
