@@ -43,6 +43,7 @@ class GestureViewController: UIViewController {
     @objc func longPressHandler(gesture: UILongPressGestureRecognizer) {
         if gesture.state == UIGestureRecognizerState.began {
             currentGestureStates.text = "Long press Gesture"
+            print("it is just commite testing")
         }
     }
     
