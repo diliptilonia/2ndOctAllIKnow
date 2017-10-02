@@ -131,15 +131,6 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <state key="normal" title="Save"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IY7-7a-GvG">
-                                <rect key="frame" x="170" y="497" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="button:" destination="HHJ-nY-Vbi" eventType="touchUpInside" id="bCP-ah-4wX"/>
-                                    <segue destination="kWh-fK-gTz" kind="show" identifier="segueToGestures" id="WLw-Sm-DcB"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="nC2-Eb-CNA"/>
@@ -385,28 +376,23 @@
                             <constraint firstItem="vrG-UL-7dH" firstAttribute="trailing" secondItem="n45-Ip-aKR" secondAttribute="trailing" constant="45" id="0h9-6P-IUS"/>
                             <constraint firstAttribute="bottom" secondItem="n45-Ip-aKR" secondAttribute="bottom" constant="116" id="2rx-Vj-Hdg"/>
                             <constraint firstAttribute="bottom" secondItem="Cqi-jw-ehB" secondAttribute="bottom" constant="116" id="5VU-HR-0lx"/>
-                            <constraint firstItem="n45-Ip-aKR" firstAttribute="top" secondItem="MaQ-hE-Zr3" secondAttribute="top" constant="138" id="66s-iB-jEu"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="leading" secondItem="Cqi-jw-ehB" secondAttribute="trailing" constant="76" id="AHO-PX-71i"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="bottom" secondItem="Cqi-jw-ehB" secondAttribute="bottom" id="Bbb-C1-Rqq"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="top" secondItem="MaQ-hE-Zr3" secondAttribute="top" constant="138" id="CLZ-XO-nn9"/>
-                            <constraint firstItem="Cqi-jw-ehB" firstAttribute="top" secondItem="vrG-UL-7dH" secondAttribute="top" constant="74" id="Due-vA-hnF"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="centerY" secondItem="Cqi-jw-ehB" secondAttribute="centerY" id="Esq-2R-759"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="top" secondItem="Cqi-jw-ehB" secondAttribute="top" id="FND-71-0lQ"/>
                             <constraint firstItem="Cqi-jw-ehB" firstAttribute="leading" secondItem="MaQ-hE-Zr3" secondAttribute="leading" constant="44" id="Hau-nY-Vbq"/>
                             <constraint firstAttribute="trailing" secondItem="n45-Ip-aKR" secondAttribute="trailing" constant="45" id="Lgx-ti-9Oi"/>
                             <constraint firstItem="Cqi-jw-ehB" firstAttribute="centerY" secondItem="n45-Ip-aKR" secondAttribute="centerY" id="Mv2-zB-DYT"/>
-                            <constraint firstItem="Cqi-jw-ehB" firstAttribute="top" secondItem="MaQ-hE-Zr3" secondAttribute="top" constant="138" id="Qog-9I-cEK"/>
                             <constraint firstItem="Cqi-jw-ehB" firstAttribute="top" secondItem="MaQ-hE-Zr3" secondAttribute="top" constant="138" id="Tfp-KQ-9qL"/>
                             <constraint firstItem="Cqi-jw-ehB" firstAttribute="leading" secondItem="MaQ-hE-Zr3" secondAttribute="leading" constant="44" id="Yiq-nl-UPO"/>
                             <constraint firstItem="Cqi-jw-ehB" firstAttribute="leading" secondItem="vrG-UL-7dH" secondAttribute="leading" constant="44" id="amu-a1-kfl"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="top" secondItem="Cqi-jw-ehB" secondAttribute="top" id="bEi-hr-R0c"/>
-                            <constraint firstItem="n45-Ip-aKR" firstAttribute="top" secondItem="vrG-UL-7dH" secondAttribute="top" constant="74" id="f1V-zb-Seb"/>
                             <constraint firstItem="Cqi-jw-ehB" firstAttribute="bottom" secondItem="n45-Ip-aKR" secondAttribute="bottom" id="gi1-G0-GWC"/>
                             <constraint firstAttribute="trailing" secondItem="Cqi-jw-ehB" secondAttribute="trailing" constant="226" id="qTO-6c-l3Z"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="leading" secondItem="MaQ-hE-Zr3" secondAttribute="leading" constant="225" id="vLU-eO-gi8"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="leading" secondItem="MaQ-hE-Zr3" secondAttribute="leading" constant="225" id="wnR-9i-hSu"/>
                             <constraint firstItem="n45-Ip-aKR" firstAttribute="leading" secondItem="Cqi-jw-ehB" secondAttribute="trailing" constant="76" id="wpv-IH-2Sc"/>
-                            <constraint firstItem="vrG-UL-7dH" firstAttribute="bottom" secondItem="Cqi-jw-ehB" secondAttribute="bottom" constant="116" id="xV9-VS-cjm"/>
                             <constraint firstItem="vrG-UL-7dH" firstAttribute="bottom" secondItem="n45-Ip-aKR" secondAttribute="bottom" constant="116" id="zPC-CC-igt"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vrG-UL-7dH"/>
